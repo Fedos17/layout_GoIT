@@ -1,0 +1,14 @@
+:root{
+    --hover-color: #2196F3;
+    --basic-color: #212121;
+    --description-color: 757575;
+}
+
+img{
+    width: 370px;
+}
+
+.our-team img {
+    width: 270px;
+}
+
