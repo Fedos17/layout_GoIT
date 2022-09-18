@@ -1,7 +1,8 @@
 :root{
     --hover-color: #2196F3;
     --basic-color: #212121;
-    --description-color: 757575;
+    --description-color: #757575;
+    --wite-color: #FFFFFF;
 }
 
 img{
@@ -11,4 +12,89 @@ img{
 .our-team img {
     width: 270px;
 }
+
+body {
+    font-family: "Roboto", serif;
+    color: var(--basic-color);
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*header*/
+.web-studio{
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--hover-color);
+}
+
+.nav-web{
+    color: var(--basic-color);
+}
+
+.menu-nav a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--basic-color);
+}
+.contact a{
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.menu-nav a:focus, a:active, a:hover{
+    color: var(--hover-color);
+}
+
+.head h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--wite-color);
+}
+
+.head button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--wite-color);
+    background-color: var(--hover-color);
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.head button:active{
+    background: #188CE8;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/*main*/
+
+/*footer*/
 
