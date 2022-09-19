@@ -12,6 +12,10 @@ body {
     color: var(--basic-color);
     font-style: normal;
 }
+body button{
+    font-family: "Roboto", serif;
+    cursor: pointer;
+}
 
 li{
     list-style-type: none;
@@ -43,6 +47,7 @@ a{
     letter-spacing: 0.02em;
     color: var(--basic-color);
 }
+
 .contact a{
     color: var(--description-color);
     font-weight: 500;
@@ -52,7 +57,7 @@ a{
     font-style: normal;
 }
 
-.menu-nav a:focus, a:active, a:hover{
+.menu-nav, .contact, a:focus, a:active, a:hover{
     color: var(--hover-color);
 }
 
@@ -77,11 +82,11 @@ a{
     color: var(--wite-color);
     background: var(--hover-color);
     letter-spacing: 0.06em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
-.head button:active{
+.head button:active, button:hover, button:focus{
     background: #188CE8;
 }
 
@@ -201,4 +206,16 @@ footer{
     background-color: var(--background-color);
     width: 1600px;
     height: 252px;
+}
+
+footer .nav-web{
+    color: var(--wite-color);
+}
+
+.adr>a{
+    color: white;
+}
+
+.adr, a:focus, a:active, a:hover{
+    color: var(--hover-color);
 }
